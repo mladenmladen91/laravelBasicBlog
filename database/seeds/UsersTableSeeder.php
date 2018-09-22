@@ -17,5 +17,5 @@ class UsersTableSeeder extends Seeder
             'password'=>bcrypt('admin91') 
             
         ]);
-    }
+
 }

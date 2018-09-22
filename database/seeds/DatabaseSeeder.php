@@ -12,6 +12,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
          $this->call(UsersTableSeeder::class);
+<<<<<<< HEAD
     
+=======
+     /*   DB::table('users')->insert([
+            
+        ]); */
+>>>>>>> refs/remotes/origin/master
     }
 }
